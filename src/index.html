@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-man-clone</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class=" min-h-screen justify-center items-center">
+
+ <!--nav bar-->
+
+    <header>
+        <nav class=" flex  justify-between items-center">
+            <a href="#" class="mx-3"><img src="pm-logo-DBvcZT7l.png" class="h-8 w-8 m-2"></a>
+            <div class="hidden sm:block text-black-200  font-normal">
+                <a href="#" class="p-2 hover:font-bold">Product</a>
+                <a href="#" class="p-2 hover:font-bold">Pricing</a>
+                <a href="#" class="p-2 hover:font-bold">Enterprise</a>
+                <a href="#" class="p-2 hover:font-bold">Resourses and Support</a>
+                <a href="#" class="p-2 hover:font-bold">Public API Network</a>
+                <a href="#"><button class="bg-blue-50 border border-collapse rounded-md py-1 px-10 m-4 hover:border-black">&#128269 Search Postman</button></a>
+            </div>
+            <div class="hidden sm:block">
+                <a href="#"><button class=" border border-black-1100 rounded-md py-1 px-2 hover:border-black">Contact Sales</button></a>
+                <a href="#"><button class=" border border-black-1100 rounded-md py-1 px-2 hover:border-black">Sign In</button></a>
+                <a href="#"><button class="text-white font-medium bg-orange-400 border border-black-1100 rounded-md py-1 px-2 m-2 hover:bg-orange-700">SignUp for Free</button></a>
+            </div>
+            <div class="text-3xl sm:hidden focus:outline-none">
+                &#128269
+                <button id="open" class="m-2">&#9776;</button>
+            </div>
+        </nav>
+    </header>
+
+<!--Main-->
+    
+        <main id="main" class="flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-mono font-extrabold ml-20">Build _ <br> APIs together</h1>
+                <p class="ml-20 mt-4 font-normal">Over 30 million developers use Postman.<br> 
+                    Get started by signing up or<br>
+                    downloading the desktop app.</p>
+                    <div class="hidden md:block">
+                        <input type="text" placeholder="Example@gmail.com" class="ml-20 mt-4 border border-orange-500 p-1 rounded-sm"><button type="submit" class="bg-orange-500 text-white rounded-sm font-normal p-1 hover:bg-orange-700">Signup for Free</button>
+                    </div>
+                    <div class="sm:hidden grid mt-3">
+                        <input type="text" placeholder="Example@gmail.com" class="w-60 rounded-md ml-20 mt-4 border border-orange-500 p-1">
+                        <button type="submit" class="w-60 bg-orange-500 text-white rounded-md font-normal p-1 hover:bg-orange-700 ml-20 m-5">Signup for Free</button>
+                    </div>
+            </div>
+
+            <img src="home.png" class="h-50 w-2/3 mr-8 hidden md:block">
+        </main>
+        <div class="display:grid items-center justify-between m-5">
+            <img src="aeroSpace-Cy21KV6S.svg" class="sm:hidden w-3/5 float-right mr-4">
+            <img src="home2.png" class="sm:hidden w-5/5 pt-10">
+        </div>
+
+<!--what is postman-->
+
+        <div class="bg-gray-100 pt-5 ">
+            <h1  class="ml-3 font-semibold text-2xl">What is PostMan</h1>
+                <p class="ml-3">Postman is an API platform for building and using APIs. Postman 
+                    simplifies each step of the API lifecycle and streamlines 
+                    collaboration so you can create better APIs—faster</p>
+
+                    <div class="grid grid-cols-4 gap-4 mt-8 ml-8 mr-8 mb-7">
+                        <a href="#main" class="hover:shadow-2xl"><div class="file-item bg-white p-4 rounded-md border">
+                            <img src="API.svg" class="pb-3">
+                            <h1 class="font-medium">API TOOLS</h1>
+                            <P class="font-normal text-sm pt-2">A comprehensive set of 
+                                tools that help accelerate 
+                                the API Lifecycle - from 
+                                design, testing, 
+                                documentation, and 
+                                mocking to discovery.</P></div></a>
+
+                         <a href="#main" class="hover:shadow-2xl"><div class="file-item bg-white p-4 rounded-md border">
+                            <img src="repo.svg" class="pb-3">
+                            <h1 class="font-medium">API Repository</h1>
+                            <P class="font-normal text-sm pt-2">Easily store, iterate and 
+                                collaborate around all your 
+                                API artifacts on one central 
+                                platform used across teams.</P></div></a>
+
+                        <a href="#main" class="hover:shadow-2xl p-2"><div class="file-item bg-white p-4 rounded-md border">
+                            <img src="work.svg" class="pb-3">
+                            <h1 class="font-medium">Workspaces</h1>
+                            <P class="font-normal text-sm pt-2">A comprehensive set of 
+                                tools that help accelerate 
+                                the API Lifecycle - from 
+                                design, testing, 
+                                documentation, and 
+                                mocking to discovery.</P></div></a>
+
+                        <a href="#main" class="hover:shadow-2xl mb"><div class="file-item bg-white p-4 rounded-md border">
+                        <img src="govern.svg" class="pb-3 h-14 w-14">
+                        <h1 class="font-medium">Governance</h1>
+                        <P class="font-normal text-sm pt-2">Improve the quality of APIs 
+                            with governance rules that 
+                            ensure APIs are designed, 
+                            built, tested, and 
+                            distributed meeting 
+                            organizational standards.</P></div></a>
+                </div>
+
+                <div class="justify-center align-middle ml-48">
+                    <button id="#main" class="border border-blue-700 rounded-md  mb-9 p-1 ml-96">Learnn more</button>
+                </div>
+
+        </div>
+
+</body>
+</html>
